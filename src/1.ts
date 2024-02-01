@@ -16,4 +16,13 @@ class Student {
   }
 }
 
+// Answer
+
+class StudentNew {
+  constructor(public name: string, public age: number, public grade: string) {}
+}
+
+const student = new StudentNew('Bob', 25, 'up');
+console.log(student);
+
 export {};
